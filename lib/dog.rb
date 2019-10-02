@@ -12,15 +12,15 @@ class Dog
     @@all
   end
 
-  def self.print.all 
+  def self.print.all
     puts @@all.map{ |dog| dog.name }
-  end 
+  end
 
-  def self.clear_all 
-    @@all.clear 
-  end 
+  def self.clear_all
+    @@all.clear
+  end
 
-  def save 
-    @@all << self 
-  end  
+  def save
+    @@all << self
+  end
 end 
