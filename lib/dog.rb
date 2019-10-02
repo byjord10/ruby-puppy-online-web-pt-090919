@@ -18,5 +18,3 @@ fido = Dog.new("Fido")
 maddy = Dog.new("Maddy")
 
 Dog.all
-
-end
